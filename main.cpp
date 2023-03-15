@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
-#include<windows.h>
+#include <windows.h>
+#include <dos.h>
 using namespace std;
 
 char grid[32][32], x[10][10], o[10][10], * p[10][10];
@@ -134,9 +135,10 @@ int main() {
 			}
 		}
 	
-			
+		
 		system("cls");
 		drawGrid();
+		
 	}
 	return 0;
 
